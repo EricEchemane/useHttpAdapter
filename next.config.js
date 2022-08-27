@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: [
+      'upload.wikimedia.org',
+      'res.cloudinary.com'
+    ]
+  }
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
